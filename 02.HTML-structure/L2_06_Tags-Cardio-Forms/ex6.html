@@ -1,0 +1,82 @@
+<html>
+<title>Forms</title>
+
+<fieldset>
+    <legend>Customer Details</legend>
+    <div>
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" />
+    </div>
+    <div>
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" />
+    </div>
+    <div>
+        <label for="male">Male</label>
+        <input type="radio" id="male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female">
+
+        <label for="other">Other</label>
+        <input type="radio" id="other">
+    </div>
+    <div>
+        Preferred contact method:<label for="preferredEmail">Email</label>
+        <input type="radio" id="preferredEmail">
+
+        <label for="preferredPhone">Phone</label>
+        <input type="radio" id="preferredPhone">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+
+    </div>
+    <div>
+        <label for="phone">Phone</label>
+        <input type="text" id="phone">
+    </div>
+    <div>
+        <label for="town">Town</label>
+        <select name="selectTown" id="town">
+            <option value="varna">Varna</option>
+            <option value="Plovdiv">Plovdiv</option>
+            <option value="Burgas">Burgas</option>
+            <option value="Sofia">Sofia</option>
+            <option value="Pleven">Pleven</option>
+        </select>
+    </div>
+    <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" min="18" max="70">
+    </div>
+    <div>
+        <label for="programmingLanguage">Programming language</label>
+        <input list="languages" name="browser" id="programmingLanguage">
+
+        <datalist id="languages">
+            <option value="Java"></option>
+            <option value="PHP"></option>
+            <option value="C#"></option>
+            <option value="JavaScript"></option>
+            <option value="Python"></option>
+            <option value="Ruby"></option>
+            <option value="Other"></option>
+        </datalist>
+    </div>
+    <div>
+        <label for="textArea"></label>
+        <textarea name="textArea" id="textArea" cols="20" rows="5">
+
+        </textarea>
+    </div>
+    <div>
+        <label for="checked">I agree the Terms and Conditions</label>
+        <input type="checkbox" id="checked">
+    </div>
+    <div></div>
+
+</fieldset>
+
+</html>
