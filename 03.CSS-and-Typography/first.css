@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Open Sans";
+
+  src: url("/fonts/webfont.woff") format("woff");
+
+  /*
+    -normal 
+    font-style: normal;
+    -italic
+    font-style: italic;
+    -oblique
+    font-style: oblique;
+  */
+
+  font-size: 18px;
+
+  /*
+  font-weight: from 100 to 900;
+  */
+  font-weight: bold;
+  font-weight: bolder;
+
+  /* 
+  Definnes the height of a singke line
+  */
+  line-height: 1.5;
+
+  /*
+  letter-spacing - Defines the spacing between characters
+  in px
+  Default normal
+  */
+  letter-spacing: 2px;
+
+  /*
+  text-align - how to aligned the text
+  */
+  text-align: center;
+
+  /*
+  text-decoration - defines how the text content of the
+    element is decorated: overline, underline,
+    line-through
+  */
+  text-decoration: line-through;
+
+  /*
+  text-indent - defines the indentation of the element's first
+    line of text
+  */
+
+  text-indent: 40px;
+
+  /*
+  text-overflow - defines how the hidden text content
+    behaves if it's overflowing
+
+    ellipsis - the overflowing content is replaced by . . .
+  */
+  text-overflow: clip;
+
+  /*
+  text-transform - specifies how to capitalize text
+
+    capitalize - turns the first letter of each word into a capital
+    letter
+  */
+  text-transform: capitalize;
+
+  /*
+  word-break - defines how words should break when reaching
+the end of line
+  */
+
+  word-break: break-all;
+
+  /*
+  Text-shadow - defines the shadow of the text content
+  Text-shadow: <horizontal> <vertical> <blur> <color>
+  */
+  p {
+    text-shadow: 2px 4px 10px red;
+  }
+
+  /*
+  color - defines the color of the text
+  */
+  color: red;
+  color: #05ffb0;
+  color: rgb(125, 125, 255);
+  color: rgba(255, 0, 0, 0.5);
+
+  /*
+  background-color - defines the color of the background
+  */
+  background-color: transparent;
+
+  /*
+  Cursor - Sets the mouse cursor when hovering the element
+  */
+  p {
+    cursor: pointer;
+  }
+
+  /*
+  Outline
+
+Outline-width - defines the width of the element's outlines
+
+Outline-style - defines the style of the element's outlines
+
+Outline-color - defines the color of the element's outlines
+  */
+  p {
+    outline: 4px dotted red;
+  }
+  
+
+  /*
+    Icons
+    - To use the Font Awesome icons, add the following line inside
+    the <head> section of your HTML file:
+    <link rel="stylesheet" href="https://use.fontawesome.com/release
+    s/v5.10.2/css/all.css">
+    - Import Font Awesome in the CSS file:
+    @import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+    Set icons
+    <head>
+
+    <link rel="stylesheet" href="https
+    ://use.fontawesome.com/releases/v5.10.
+    2/css/all.css">
+  
+    </head>
+  
+    <body>
+  
+    <i class="fas fa-star"></i>
+  
+    </body>
+  */
+}`
+
+/*
+We can add font from google fonts.
+Copy style and import in css file
+*/

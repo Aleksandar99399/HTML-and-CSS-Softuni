@@ -1,0 +1,9 @@
+p{
+    width: 200px;
+    padding: 5px;
+    margin: auto;
+    border: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: rgb(64, 224, 208);
+}

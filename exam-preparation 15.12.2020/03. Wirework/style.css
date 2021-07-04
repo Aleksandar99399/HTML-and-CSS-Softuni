@@ -1,0 +1,189 @@
+@import "https://use.fontawesome.com/releases/v5.15.2/css/all.css";
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+}
+
+.section-wrapper {
+  max-width: 1350px;
+  margin: 0 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  background: gray;
+  padding: 19px;
+  margin: 0px 1px;
+}
+
+nav ul li:nth-child(1) {
+  background: #e24e2a;
+}
+
+nav ul li:nth-child(1) a {
+  color: white;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #382929;
+}
+
+.header-logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.header-image img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.header-logo {
+  margin-right: 20px;
+  font-size: 32px;
+}
+
+.header-logo::after {
+  content: "";
+  width: 1px;
+  height: 39px;
+  position: relative;
+  left: 10px;
+  top: 9px;
+  display: inline-flex;
+  background: gray;
+}
+
+.header-logo-subtitle {
+  margin-top: 34px;
+}
+
+.about {
+  background: #f94001;
+}
+
+.about-text {
+  padding: 80px;
+  margin: -5px auto 0 auto;
+  max-width: 70%;
+  text-align: center;
+  color: white;
+}
+
+.about-text a {
+  color: white;
+}
+
+.benefits {
+  display: flex;
+  background: #383838;
+  padding: 50px;
+  text-align: center;
+}
+
+.benefit-title {
+  color: white;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.benefit {
+  margin: 0 30px;
+}
+
+.benefit-text {
+  color: #7b7676;
+  font-size: 22px;
+}
+
+.benefit-icon-wrapper {
+  font-size: 48px;
+  color: white;
+}
+
+.benefit-icon-wrapper {
+  background: #f94001;
+  padding: 18px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 70px 0;
+}
+.cta-section-subtitle {
+  margin-top: 0;
+  color: #7b7676;
+}
+
+.cta-section-title {
+  margin-bottom: 0;
+  color: #383838;
+}
+
+.btn {
+  background: #1b9772;
+  color: white;
+  letter-spacing: 2px;
+  border: none;
+  padding: 12px 18px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.info {
+  background: #383838;
+  padding: 80px 0;
+}
+
+.info-content-wrapper {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.info-item-title {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.info-tem-text {
+  color: #7b7676;
+}
+
+footer {
+  background: #1b9772;
+  color: #b5b5b5;
+  padding: 120px;
+  text-align: center;
+  font-size: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}

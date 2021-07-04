@@ -1,0 +1,74 @@
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Helvetica", "sans-serif";
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 200px;
+  margin-top: 50px;
+  background: #eeeeee;
+}
+
+main,
+header {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.image-wrapper {
+  border: 3px solid black;
+  padding: 10px;
+  background: white;
+  box-shadow: 1px -1px 18px -3px rgb(0, 0, 0, 0.75);
+}
+
+header {
+  border-bottom: 2px solid black;
+  margin-top: 50px;
+}
+
+.site-title {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+blockquote {
+  border-left: 4px solid gray;
+  padding-left: 30px;
+}
+
+blockquote p {
+  color: gray;
+  font-style: italic;
+}
+
+blockquote .author-name {
+  font-weight: bold;
+  text-align: right;
+}
+
+.heading-image {
+  float: right;
+}
+
+.heading-level-three .image-wrapper {
+  float: left;
+  margin: 38px;
+}
+
+.heading-level-two-content .heading-content,
+.heading-level-two-content blockquote {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
